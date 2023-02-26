@@ -1,0 +1,91 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.heading{
+    position: relative;
+    top: 80px;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+.container {
+    height: 50px;
+    margin: auto;
+    width: 65%;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    border-radius: 50px;
+}
+
+.icon{
+    color: gray;
+    margin: 5px auto;
+    float: left;
+    position: absolute;
+    left: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 5px;
+    width: 10%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.icon:hover,
+.search:hover{
+    opacity: .9;
+}
+
+.search{
+    color: gray;
+    float: right;
+    margin: 5px auto;
+    position: absolute;
+    right: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 5px;
+    width: 10%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.recents{
+    height: 80px;
+    position: relative;
+    top: 120px;
+    width: 10%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;  
+}
+.recents:hover{
+    background-color: gray;
+}
+
+.site{
+    border: 1px solid black;
+    border-radius: 180%;
+    height: 50px;
+    width: 50px;
+}
+.name{
+    font-size: 15px;
+    position: absolute;
+    left: 15%;
+    top: 50;
+}

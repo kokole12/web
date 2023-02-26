@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    line-height: 80px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+}
+div {
+    display: inline-block;
+    line-height: 20px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    margin-right: 0;
+    
+}
+ul li{
+    display: inline-flex;
+    margin: 5px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 4px;
+    /* float: right; */
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    opacity: .8;
+}
+main{
+    text-align: center;
+    margin: auto;
+}
+section{
+    height: 40px;
+    width: 30%;
+    position: relative;
+    background-color: bisque;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+    line-height: 40px;
+    float: left;
+}
+aside{
+    height: 40px;
+    width: 38%;
+    margin: 3px;
+    background-color: aquamarine;
+    line-height: 40px;
+    float: right;
+    border-radius: 4px;
+
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: brown;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
