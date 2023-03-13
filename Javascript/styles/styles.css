@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blue;
+    text-align: center;
+}
+
+h1{
+    margin: 100px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    width:  65%;
+    height: 90vh;
+    color: blue;
+    text-shadow: 1px solid black;
+}
