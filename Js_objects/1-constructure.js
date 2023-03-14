@@ -10,10 +10,11 @@ function createPerson(name)
     return obj;
 }
 
-const winnie = createPerson('Winnie');
+
+const winnie = new createPerson('Winnie');
 winnie.name
 winnie.introduceelf()
 
-const kokole = createPerson('Kokole');
+const kokole = new createPerson('Kokole');
 kokole.name
 kokole.introduceelf()
