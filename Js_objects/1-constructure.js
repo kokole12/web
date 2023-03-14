@@ -13,3 +13,7 @@ function createPerson(name)
 const winnie = createPerson('Winnie');
 winnie.name
 winnie.introduceelf()
+
+const kokole = createPerson('Kokole');
+kokole.name
+kokole.introduceelf()
